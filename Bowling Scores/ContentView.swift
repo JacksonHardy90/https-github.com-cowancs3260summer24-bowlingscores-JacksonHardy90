@@ -11,9 +11,9 @@ struct ContentView: View {
     @State var game1: String = ""
     @State var game2: String = ""
     @State var game3: String = ""
-    @State var s: Int = 0
-    @State var a: Int = 0
-    @State var h: Int = 0
+    @State var s: String = " "
+    @State var a: String = " "
+    @State var h: String = " "
 
     var body: some View {
         VStack(spacing: 20) {
@@ -32,6 +32,7 @@ struct ContentView: View {
                     .background(Color.yellow)
                     .accessibilityLabel("Game 1")
                 TextField("Enter score", text: $game1)
+
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .frame(width: 200)
                     .accessibilityLabel("game1")
@@ -68,6 +69,7 @@ struct ContentView: View {
             VStack {
                 Button(action: {
                     calculateResults()
+
                 }) {
                     Text("Calculate")
                         .frame(maxWidth: .infinity)
@@ -127,15 +129,18 @@ struct ContentView: View {
         .padding()
     }
     
-    private func calculateResults() {
+     func calculateResults() {
         // Convert scores to integers
-        let scoreStrings = [game1, game2, game3]
-        let scores = scoreStrings.compactMap { Int($0) }.filter { $0 >= 0 }
+         print("Game 1: \(game1), Game 2: \(game2), Game 3: \(game3)")
+         print("Series: \(s), Average: \(a), High: \(h)")
+         let scores = [game1, game2, game3].compactMap { Int($0) }.filter { $0 >= 0 }
+         print("Game 1: \(game1), Game 2: \(game2), Game 3: \(game3)")
+         print("Series: \(s), Average: \(a), High: \(h)")
         
         guard !scores.isEmpty else {
-            s = 0
-            a = 0
-            h = 0
+            s = "0"
+            a = "0"
+            h = "0"
             return
         }
         
@@ -148,10 +153,12 @@ struct ContentView: View {
         // Find high game
         let high = scores.max() ?? 0
         
-        // Update state variables
-        s = seriesTotal
-        a = avg
-        h = high
+        // Update variables
+         s = "\"\(seriesTotal)\""
+        a = "\"\(avg)\""
+        h = "\"\(high)\""
+         print("Game 1: \(game1), Game 2: \(game2), Game 3: \(game3)")
+         print("Series: \(s), Average: \(a), High: \(h)")
     }
 }
 

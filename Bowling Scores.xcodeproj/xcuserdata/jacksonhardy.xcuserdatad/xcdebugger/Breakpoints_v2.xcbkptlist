@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "795353EB-32D1-4669-8D89-650B73478EC6"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6521D4DC-DFE3-43DC-AD2B-72CFA330003F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bowling Scores/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "ContentView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "6521D4DC-DFE3-43DC-AD2B-72CFA330003F - f593752736acb92b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bowling_Scores.ContentView.init() -&gt; Bowling_Scores.ContentView"
+                  moduleName = "Bowling Scores"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jacksonhardy/Desktop/Bowling%20Scores/Bowling%20Scores/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "6521D4DC-DFE3-43DC-AD2B-72CFA330003F - 9195cdfa90b67c37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bowling_Scores.ContentView.init(game1: Swift.String, game2: Swift.String, game3: Swift.String, s: Swift.String, a: Swift.String, h: Swift.String) -&gt; Bowling_Scores.ContentView"
+                  moduleName = "Bowling Scores"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jacksonhardy/Desktop/Bowling%20Scores/Bowling%20Scores/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23FCFF23-20CC-443E-8B0B-A05617B057D1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bowling Scores/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ContentView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "23FCFF23-20CC-443E-8B0B-A05617B057D1 - f00e87c96b45e3a0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of Bowling_Scores.ContentView.game1 : Swift.String"
+                  moduleName = "Bowling Scores"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jacksonhardy/Desktop/Bowling%20Scores/Bowling%20Scores/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "23FCFF23-20CC-443E-8B0B-A05617B057D1 - 4de91f95013a8dd6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bowling_Scores.ContentView.game1.getter : Swift.String"
+                  moduleName = "Bowling Scores"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jacksonhardy/Desktop/Bowling%20Scores/Bowling%20Scores/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "23FCFF23-20CC-443E-8B0B-A05617B057D1 - df747c4b852dbdea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bowling_Scores.ContentView.game1.setter : Swift.String"
+                  moduleName = "Bowling Scores"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jacksonhardy/Desktop/Bowling%20Scores/Bowling%20Scores/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "23FCFF23-20CC-443E-8B0B-A05617B057D1 - 1014de8b0795d1db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bowling_Scores.ContentView.game1.modify : Swift.String"
+                  moduleName = "Bowling Scores"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jacksonhardy/Desktop/Bowling%20Scores/Bowling%20Scores/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "23FCFF23-20CC-443E-8B0B-A05617B057D1 - 61c8eea018a92bea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bowling_Scores.ContentView.game1.modify : Swift.String with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Bowling Scores"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jacksonhardy/Desktop/Bowling%20Scores/Bowling%20Scores/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "23FCFF23-20CC-443E-8B0B-A05617B057D1 - 1879fa17f1629012"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bowling_Scores.ContentView.$game1.getter : SwiftUI.Binding&lt;Swift.String&gt;"
+                  moduleName = "Bowling Scores"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jacksonhardy/Desktop/Bowling%20Scores/Bowling%20Scores/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "23FCFF23-20CC-443E-8B0B-A05617B057D1 - f593752736acb92b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bowling_Scores.ContentView.init() -&gt; Bowling_Scores.ContentView"
+                  moduleName = "Bowling Scores"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jacksonhardy/Desktop/Bowling%20Scores/Bowling%20Scores/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

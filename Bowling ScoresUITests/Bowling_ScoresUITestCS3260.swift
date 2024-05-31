@@ -130,7 +130,7 @@ class Bowling_ScoresUITestCS3260: XCTestCase {
         sleep(1)
         let h = app.staticTexts["high"].value as! String
         sleep(1)
-
+        
         XCTAssertEqual(s, "600", "Series does not equal 600")
         XCTAssertEqual(a, "200", "Average does not equal 200")
         XCTAssertEqual(h, "300","High does not equal 300")
