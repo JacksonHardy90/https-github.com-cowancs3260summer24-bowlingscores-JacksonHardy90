@@ -11,9 +11,9 @@ struct ContentView: View {
     @State var game1: String = ""
     @State var game2: String = ""
     @State var game3: String = ""
-    @State var s: String = " "
-    @State var a: String = " "
-    @State var h: String = " "
+    @State var s: String = "0"
+    @State var a: String = "0"
+    @State var h: String = "0"
 
     var body: some View {
         VStack(spacing: 20) {
@@ -154,9 +154,9 @@ struct ContentView: View {
         let high = scores.max() ?? 0
         
         // Update variables
-         s = "\"\(seriesTotal)\""
-        a = "\"\(avg)\""
-        h = "\"\(high)\""
+         s = "\(seriesTotal)"
+        a = "\(avg)"
+        h = "\(high)"
          print("Game 1: \(game1), Game 2: \(game2), Game 3: \(game3)")
          print("Series: \(s), Average: \(a), High: \(h)")
     }
